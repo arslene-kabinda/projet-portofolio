@@ -1,6 +1,6 @@
 let blocProjet = document.querySelector('#blocProjet');
 
-fetch("http://localhost:4100/api/projectsList")
+fetch("https://60e88a90673e350017c218f3.mockapi.io/Portofolio/V1/projets")
 
 .then(function(reponse) {
     return reponse.json();

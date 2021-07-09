@@ -1,6 +1,6 @@
 let blocIdentifiant = document.querySelector('#blocIdentifiant');
 
-fetch("http://localhost:3000/identites")
+fetch("https://60e88a90673e350017c218f3.mockapi.io/Portofolio/V1/identites")
     .then(function(reponse) {
         return reponse.json();
     })
