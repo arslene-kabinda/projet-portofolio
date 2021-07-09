@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Portofolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="bgNav__color">
+        <div class="nav-wrapper z-depth-2">
+          <a href="#" class="nav__logo brand-logo">Arsy</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i id="menu-humberger" class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo ">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact ">Contact</a></li>
+      </ul>
+    </header>
+    <section id="home" class="big__container1">
+      <div class="container1">
+        <div class="container1__content">
+          <h3>Hi ! I'm</h3>
+          <h1>Arslène Kabinda.</h1>
+        </div>
+        <div class="container1__link">
+          <p>
+            Press the button just below to contact me for more
+            informations.thank you!
+          </p>
+          <a href="#contact ">Contact me</a>
+        </div>
+      </div>
+    </section>
+    <section id="About" class="big__container2">
+      <div class="container2">
+        <div class="container2__title">
+          <h2>About</h2>
+        </div>
+        <div id="blocIdentifiant" class="flex row"></div>
+      </div>
+    </section>
+    <!-- section skills -->
+
+    <section id="skills" class="big__container3">
+      <div class="container3">
+        <div class="container3__title">
+          <h2>Skills</h2>
+        </div>
+        <div class="container3__content">
+          <div class="container3__card">
+            <p>
+              Here are some skills that I master and with which I create web
+              pages:
+            </p>
+            <div class="row card__content col s12 m6 l6">
+              <div class="skills">
+                <span
+                  class="iconify"
+                  data-icon="cib:sass"
+                  data-inline="false"
+                ></span
+                ><span class="skill-name">Sass</span>
+              </div>
+              <div class="skills">
+                <span
+                  class="iconify"
+                  data-icon="bx:bxl-html5"
+                  data-inline="false"
+                ></span
+                ><span class="skill-name">Html5</span>
+              </div>
+              <div class="skills">
+                <span
+                  class="iconify"
+                  data-icon="fluent:javascript-20-filled"
+                  data-inline="false"
+                ></span
+                ><span class="skill-name">JavaScript</span>
+              </div>
+              <div class="skills">
+                <span
+                  class="iconify"
+                  data-icon="ion:logo-css3"
+                  data-inline="false"
+                ></span
+                ><span class="skill-name">Css3</span>
+              </div>
+              <div class="skills">
+                <span
+                  class="iconify"
+                  data-icon="ant-design:github-filled"
+                  data-inline="false"
+                ></span
+                ><span class="skill-name">Github</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projets" class="big__container4">
+      <h2>Projets</h2>
+      <p>
+        on this page you can see different projects carried out, among others:
+      </p>
+
+      <div class="container4">
+        <div class="container4__arrow">
+          <i class="arrow__postion large material-icons arrow__back"
+            >arrow_back</i
+          >
+          <i class="arrow__postion large material-icons arrow__forward"
+            >arrow_forward</i
+          >
+        </div>
+
+        <div id="blocProjet" class="container4__card"></div>
+      </div>
+    </section>
+    <footer id="contact" class="contact">
+      <h2 class="contact__title">contact</h2>
+      <p class="contact__description">
+        You can contact me via this different links for more informations
+      </p>
+
+      <div class="row contact__content col s12 m6 l6">
+        <a href="mailto:arskabinda@gmail.com" class="contact__links">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/arslene.kabs" class="contact__links">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://instagram.com/arslenemulangu?igshid=x9y4ek5a1mfw"
+          class="contact__links"
+        >
+          <i class="fab fa-instagram-square"></i>
+        </a>
+        <a href="https://github.com/arslene-kabinda" class="contact__links">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="../materialize-css/js/bin/materialize.js "></script>
+    <script src="../js/script.js "></script>
+    <script src="../js/ajax_identite.js "></script>
+    <script src="../js/ajax_projets.js "></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js "></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "identites": [{
+        "id": 1,
+        "nom": "Kabinda",
+        "preNom": "Arslène",
+        "description": "Lorem ipsum, dolor sit amet conseem necessitatibus, facilis possimus amet quasi modi iusto ea,",
+        "photoProfil": "../images/index.jpeg",
+        "alt": "image profil Arslène"
+    }],
+    "projets": [{
+            "id": 1,
+            "imageProjet": "../images/kd.png",
+            "alt": "image site kinshasa digital",
+            "description": "The realization of the Kinshasa Digital website; "
+        },
+        {
+            "id": 2,
+            "imageProjet": "../images/formulaire.png",
+            "alt": "image formulaire de contact",
+            "description": "A static contact form; "
+        },
+        {
+            "id": 3,
+            "imageProjet": "../images/liste.png",
+            "alt": "image repertoire de contact ",
+            "description": "A dynamic contact directory containing a contact form and a contact list. "
+        }
+    ]
+
+}
